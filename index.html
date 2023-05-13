@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Todo app</title>
+</head>
+<script type="text/javascript" src="controllers.js"></script>
+<script type="text/javascript" src="uiEvents.js"></script>
+<script type="text/javascript" src="uiHandler.js"></script>
+<script type="text/javascript" src="uiElements.js"></script>
+
+<body>
+    <h1>Core Html Javascript Todo App</h1>
+    <input class="item-input" type="text">
+    <button onClick="addTodoController()">Add</button>
+    <ul class="todo-list">
+    </ul>
+    <h3 class="completed-count">Completed:</h3>
+    <h3 class="total-count">Total:</h3>
+    <script>renderUIHandler()</script>
+</body>
+
+</html>
